@@ -1,0 +1,94 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #1a1a1a;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+main {
+    padding: 40px;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+    color: #1a1a1a;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+#home {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #f2f2f2;
+}
+
+#services ul li,
+#projects ul li {
+    margin-bottom: 10px;
+}
+
+#about {
+    background-color: #e6e6e6;
+    padding: 40px;
+}
+
+#contact ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
